@@ -1,0 +1,80 @@
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    background-image: linear-gradient(135deg, #00ff99, #00b3ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-image: url('img/03bff2fd80d0beb1179a25d742a5e0ff.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+
+header .topo {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.lista-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cartao-personagem {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.cartao-personagem:hover {
+    transform: scale(1.05);
+}
+
+.cartao-personagem img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.cartao-personagem h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.cartao-personagem p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.rodape {
+    text-align: center;
+    padding: 10px; 
+    background-image: linear-gradient(135deg, #00ff99, #00b3ff);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 1em; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-top: 3px solid #00ff99; 
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.5); 
+    margin-top: 150px;
+}
+
+
